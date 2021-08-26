@@ -1,4 +1,6 @@
--f https://download.pytorch.org/whl/torch_stable.html
+-f https://download.pytorch.org/whl/torch_stable.html 
+torch== 1.8.1+cpu 
+torchvision==0.9.1+cpu
 click==8.0.1
 Flask==2.0.1
 flatbuffers==2.0
@@ -13,7 +15,6 @@ opencv-python==4.5.3.56
 Pillow==8.3.1
 protobuf==3.17.3
 six==1.16.0
-torch
 torchvision==0.6.1+cpu
 typing-extensions==3.10.0.0
 Werkzeug==2.0.1
